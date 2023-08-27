@@ -1,0 +1,16 @@
+.video{
+    position: relative;
+    padding-top: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right,#01233a,#09dfee);
+
+}
+.video .player{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    
+
+}

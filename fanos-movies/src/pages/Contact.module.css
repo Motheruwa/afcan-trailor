@@ -1,0 +1,36 @@
+.box{
+    width: 100vw;
+    height: 603px;
+    color: #fff;
+    font-weight: bold;
+    background: linear-gradient(to right,#01233a,#09dfee);
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+
+@media (max-width:1242px){
+    h1{
+        font-size: 150px;
+    }
+}
+@media (max-width:932px){
+    h1{
+        font-size: 100px;
+        
+    }
+}
+@media (max-width:632px){
+    h1{
+        font-size: 80px;
+    }
+}
+@media (max-width:484px){
+    h1{
+        font-size: 60px;
+    }
+    h4{
+        font-size: 25px;
+    }
+}

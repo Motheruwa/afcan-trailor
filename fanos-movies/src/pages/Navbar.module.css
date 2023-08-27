@@ -1,0 +1,129 @@
+.navbar{
+    background: linear-gradient(to right,#09dfee,#01233a);
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 10px 10px rgba(240, 238, 238, 0.9) ;
+    
+
+}
+.mobilenav{
+    display: none;
+}
+
+
+
+.navbar a{
+    text-decoration: none;
+}
+
+.navbar .name{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: .1em .1em 0 hsl(177, 87%, 30%);
+    font-family: 'Brush Script MT', cursive;
+}
+.navbar input{
+    font-size: 20px;
+    border: none;
+    margin-right: 0px;
+    border-radius: 10px;
+    padding: 10px;
+}
+ 
+.link{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.link a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+.link a:hover{
+    color: aqua;
+    border-bottom: 2px solid black; 
+}
+.link a:active{
+    color: black;
+    text-align: 2px 2px 4px #000000;
+}
+.search{
+    width: 200px;
+    height: 40px;
+    margin-right: 60px;
+    
+}
+@media(max-width:818px){
+    .search{
+        margin-right: 90px;
+    }
+}
+@media (max-width:808px){
+    .search{
+        margin-right: 110px;
+    }
+      .link{
+        display: none;
+      }
+      .mobilenav{
+        display: flex;
+
+      }
+      .mobilelink{
+        height: 0px;
+        display:flex;
+        flex-direction: column;
+        z-index: 3;
+        position:absolute;
+        top:60px;
+        left:0;
+        right:0;
+        width:0px;
+        background:linear-gradient(to right bottom,#01233a,#0a555a,#0a555a,#01233a);
+        transition: 1s;
+        overflow:hidden;
+        gap: 15px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        align-items: center;
+        
+}
+.mobilelink a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    box-shadow: 0 10px 10px rgba(21, 204, 180, 0.9) ;
+    border-radius: 10px;
+
+}
+.mobilelink a:hover{
+    color:aqua;
+}
+
+  .navbar .name{
+    display: none;
+  }    
+  .navbar{
+    height: 60px;
+    width: 100vw;
+  }
+  .search{
+    margin-right: 30px;
+}
+}
+@media(max-width:320px){
+    .search{
+        margin-right: 0;
+    }
+    
+}

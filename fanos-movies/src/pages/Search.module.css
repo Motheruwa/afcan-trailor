@@ -1,0 +1,57 @@
+
+.box{
+    position: relative;
+    z-index: 1;
+    align-items: center;
+    display: flex;
+    
+}
+.box input{
+    border-color: beige;
+    background-color: #929090;
+    font-size: 30px;
+    width: 200px;
+}
+.searchbox{
+  width: 250px;
+  height: 350px;
+}
+
+.search{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: repeat(1,auto);
+    z-index:3;
+    right: 35px;
+    position: absolute;
+    top:80px;
+    height: 350px;
+    width: 250px;
+    overflow: scroll;
+    border: 1px solid #121313;
+    background: #fff;
+
+    
+}
+
+.box  button{
+    background: none;
+    position: absolute;
+    right:0;
+    border-radius: 50px;
+
+}
+.search .notfound
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+   

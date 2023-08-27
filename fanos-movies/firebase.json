@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "afcan-trailor",
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
